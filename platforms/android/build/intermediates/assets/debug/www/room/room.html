@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title></title>
+    <link rel="manifest" href="../manifest.json">
+    <link href="../lib/ionic/css/ionic.css" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
+    <script src="../lib/ionic/js/ionic.bundle.js"></script>
+    <script src="http://libs.baidu.com/jquery/1.7.2/jquery.min.js"></script>
+    <script src="../cordova.js"></script>
+    <script src="../js/app.js"></script>
+    <script src="https://cdn.socket.io/socket.io-1.4.5.js"></script>
+</head>
+
+<body ng-app="starter" ng-controller="actionsheetCtl">
+    <button on-touch="goback()" class="goback"></button>
+    <span id="_vl_video_component" pn="2X02NB86N2" ls="v" bt="1" lg="" ld="" nl="" version="1.060725"></span>
+    <script language="javascript" type="text/javascript" src="http://static.vinv.cn/vlive/static/sdk/js/jquery-1.9.1.min.js"></script>
+    <script language="javascript" type="text/javascript" src="http://static.vinv.cn/vlive/static/sdk/js/vlive.sdk.js"></script>
+    <script>
+    _vl_v._run();
+    </script>
+    <section class="chat" id="convo" data-from="Sonu Joshi">
+        <div class="chatinfo">
+            <img src="../img/header01.png">
+            <span>蒋飞</span>
+            <b>33696</b>
+            <i>
+                <img src="../img/heart.png" alt="">
+            </i>
+            <p>史上"最牛散户"怎么办到多次减持获得巨额财富？</p>
+        </div>
+        <ul class="chat-thread" id="ChatThread">
+        </ul>
+    </section>
+    <div class="form">
+        <input type="text" placeholder="请输入内容" id="ChatCon">
+        <input type="submit" onclick="getEmit()" value="发送" id="ChatConSub">
+    </div>
+    <script src="../js/main.js"></script>
+</body>
+
+</html>

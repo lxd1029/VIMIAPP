@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"> 
+<title></title>
+    <link href="../css/style.css" rel="stylesheet">
+    <style>
+    	*{
+    		margin: 0;
+    		padding: 0
+    	}
+    </style>
+</head>
+<body>
+    <video id="Video" controls="controls" autoplay="autoplay" width="100%">
+        <source src="http://ws1-hls.vinv.cn/vinv/B208T4ZH4N/playlist.m3u8" type="application/x-mpegURL">
+    </video>
+</body>
+<script>
+	var Video = document.getElementById("Video");
+	Video.style.height = document.body.scrollHeight;
+</script>
+</html>

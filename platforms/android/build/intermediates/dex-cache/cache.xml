@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="F:\vimiapp\platforms\android\build\intermediates\exploded-aar\android\CordovaLib\unspecified\debug\classes.jar"
+        jumboMode="false"
+        revision="25.0.0"
+        sha1="d86423540adb88f25cccbfd0c18fac7292bb0adb">
+        <dex dex="F:\vimiapp\platforms\android\build\intermediates\pre-dexed\debug\classes-9c54b8a98df46e865dd8389eb8fef47db93ed0e7.jar" />
+    </item>
+
+</items>

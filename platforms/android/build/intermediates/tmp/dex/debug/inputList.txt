@@ -1,0 +1,2 @@
+F:\vimiapp\platforms\android\build\intermediates\classes\debug
+F:\vimiapp\platforms\android\build\intermediates\pre-dexed\debug\classes-9c54b8a98df46e865dd8389eb8fef47db93ed0e7.jar
